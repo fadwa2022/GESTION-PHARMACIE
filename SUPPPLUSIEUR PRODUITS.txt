@@ -1,0 +1,16 @@
+/*int Supprimer_les_produits(produit P[],int N){
+int i,j,s,supprimer[N],nombreproduit;
+  do{printf("\n SAISIRE LE NOMBRE DES PRODUITS QUE VOUS VOULEZ SUPPRIMER ");
+  scanf("%d",&nombreproduit);}while(nombreproduit>N);
+      printf("\n ENTRER LE CODE DES PRODUITS QUE VOUS VOULEZ LES SUPPRIMER \n");
+      for(i=0;i<nombreproduit;i++)
+      scanf("%d",&supprimer[i]);
+      for(j=0;j<N;j++){
+            for(i=0;i<nombreproduit;i++){
+            if(P[j].code==supprimer[i]){
+                for(s=j;s<N;s++)
+                  P[j]=P[j+1];
+            }
+        }
+        }
+     return N-nombreproduit;   }*/
