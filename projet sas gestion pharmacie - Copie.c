@@ -333,7 +333,7 @@ for(i=0;i<=v;i++){
      printf("\n\n                   !!!!!!!!!!AUCUN ARTICLE N'EST VENDU CE JOURS!!!!!!!!!!!!!\n");
  else{	
     printf(" \n\nLE PRIX TOTALE DES PRODUITS VENDUS A %d/%d/%d est : %d \n\n",jour,mois,annee,totalprixvendus);
-    printf(" \n\nLE PRIX TOTALE DES PRODUITS VENDUS A %d/%d/%d est : %.2f \n\n",jour,mois,annee,totalprixttcvendus);
+    printf(" \n\nLE PRIX TOTALE TTC DES PRODUITS VENDUS A %d/%d/%d est : %.2f \n\n",jour,mois,annee,totalprixttcvendus);
     printf(" \n\nLA MOYENNE DES PRODUITS VENDUS A %d/%d/%d est : %.2f \n\n",jour,mois,annee,totalprixvendus/vendus);
     printf(" \n\nLE MINIMUM DES PRIX DES PRODUITS VENDUS A %d/%d/%d est : %d \n\n",jour,mois,annee,min);
     printf(" \n\nLE MAXIMUM DES PRIX DES PRODUITS VENDUS A %d/%d/%d est : %d \n\n",jour,mois,annee,max);
